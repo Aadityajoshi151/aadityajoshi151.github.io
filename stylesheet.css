@@ -18,7 +18,9 @@
 {
     padding-top: 50px;
     color: #424242;
-    font-weight: bolder;
+    font-weight: 900;
+    font-size: 30px;
+    text-decoration: underline;
 }
 .divp
 {
@@ -53,7 +55,7 @@ hr
 {
   border: dotted #424242 7px;
   border-bottom: none;
-  width: 10%;
+  width: 50%;
   margin: 50px auto;
 }
 #compimage
@@ -66,4 +68,9 @@ a
 {
   font-family: 'Arvo', serif;
   color: purple;
+}
+#counter{
+  position: fixed;
+  left: 20px;
+  top: 20px;
 }
